@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do Vale dos Dragões</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="carta.png" alt="">
+            <p>Enquanto explorava o antigo baú de seu avô, você encontra uma misteriosa carta antiga. A carta fala sobre o "Vale dos Dragões", um lugar lendário protegido por dragões e coberto por uma rica vegetação. Decidido a encontrar o vale, você se prepara para começar sua jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Aventura no Pantanal</button>
+            <button class="btn-proximo" data-proximo="2">Exploração na Serra do Mar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="pantano.png" alt="">
+            <p>Você começa sua jornada no Pantanal, conhecido por sua rica biodiversidade. Ao explorar a região, você encontra um antigo mapa escondido em uma caverna.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir as instruções do mapa</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="floresta.png" alt="">
+            <p>Na Serra do Mar, você visita uma antiga floresta. A carta menciona que o próximo passo é encontrar um templo escondido na floresta. Onde você começa sua busca?</p>
+            <button class="btn-proximo" data-proximo="5">Procurar na área ao redor das árvores antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os rios próximos</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="serra do mar.png" alt="">
+            <p>Seguindo as instruções do mapa, você descobre que a próxima pista está na Serra do Mar.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Serra do Mar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="volta para casa.jpg" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a jornada é muito perigosa e volta para casa, mas se pergunta o que poderia ter encontrado.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="mapa antigo.png">
+            <p>Procurando na área ao redor das árvores antigas, você encontra um mapa antigo escondido atrás de uma árvore gigante. O mapa revela que a próxima pista está no Pantanal.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Pantanal</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="caverna agua.png">
+            <p>Explorando os rios próximos, você encontra uma caverna, mas ela está cheia de água e não leva a lugar algum.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e procurar as árvores antigas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="rio bifurcado.png">
+            <p>No Pantanal, você encontra um rio bifurcado que pode levar a novas descobertas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="mapa pantano.png">
+            <p>De volta às árvores antigas, você encontra o mapa antigo que leva ao Pantanal. Agora, você está pronto para continuar sua jornada.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Pantanal</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="caverna rio esquerda.png">
+            <p>O rio à esquerda leva você a uma caverna escondida com inscrições antigas que revelam a localização do Vale dos Dragões.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Vale dos Dragões</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="rio direita.png">
+            <p>O rio à direita termina em uma área pantanosa. Não há sinais do Vale dos Dragões aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="vale dos dragões.png" alt="encontrando o Vale dos Dragões">
+            <p>No Vale dos Dragões, você encontra um templo antigo cercado por dragões, uma floresta exuberante e uma caverna secreta. Aventureiro, você decide explorar e documentar este lugar mágico para a posteridade.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="caverna rio esquerda.png">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a caverna escondida e as inscrições que levam ao Vale dos Dragões.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Vale dos Dragões</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
